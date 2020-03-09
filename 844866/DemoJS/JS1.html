@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JS</title>
+   
+</head>
+<body>
+    <h1 id="ref"> </h1>
+    <br />
+    <br />
+    <h2></h2>
+    <br />
+    <h3 name="n1"></h3>
+    <h1 class="ref1"></h1>
+    <h2></h2>
+    <script type="text/javascript">
+        //script loaded after html page
+        alert("Welcome to Javascript");
+        console.log("hi javascript");
+        var length = 10;
+        var name = document.getElementById("ref").textContent;
+        var student = { name: "Raj", age: 18, id: 100 };
+        //document.getElementById("ref").innerHTML = student.name + " " + student.age + " " + student.id + " ";
+        //document.getElementById("n1").innerHTML = name + " " + length;
+        //document.getElementById("ref").innerHTML = "Hello";
+        document.getElementsByTagName("h2")[0].innerHTML = "Welcome";
+        document.getElementsByName("n1")[0].innerHTML = "To CTS";
+        document.getElementsByClassName("ref1")[1].innerHTML = "Chennai"+ " " +name;
+    </script>
+</body>
+</html>

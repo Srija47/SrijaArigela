@@ -1,0 +1,30 @@
+<div class="container" id="Task">
+    <table class="table" border="0" >
+        <tr class="Default">
+            <td>Task</td>
+            <td><input type="text" [(ngModel)]="name"></td>
+        </tr>
+        <tr class="Default">
+            <td>Priority</td>
+            <td>
+                <input type="range" min="0" max="10" class="customRange" [(ngModel)]="priority">
+            </td>  
+        </tr>
+        <tr class="Default">
+            <td>Start Date</td>
+            <td><input type="date" [(ngModel)]="startdate"></td>
+        </tr>
+        <tr class="Default">
+            <td>End Date</td>
+            <td><input type="date" [(ngModel)]="enddate"></td>
+        </tr>
+        <tr class="Default">
+            <td>
+                <button class="btn btn-md btn-warning" (click)="Reset()">Reset</button>
+            </td>
+            <td>
+                <button class="btn btn-md btn-success" (click)="Add()">Add</button>
+            </td>
+        </tr>
+    </table>
+</div>

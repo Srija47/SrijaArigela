@@ -1,0 +1,6 @@
+D:\844866\C#\HandsOn\AssignList\bin\Debug\AssignList.exe.config
+D:\844866\C#\HandsOn\AssignList\bin\Debug\AssignList.exe
+D:\844866\C#\HandsOn\AssignList\bin\Debug\AssignList.pdb
+D:\844866\C#\HandsOn\AssignList\obj\Debug\AssignList.csprojAssemblyReference.cache
+D:\844866\C#\HandsOn\AssignList\obj\Debug\AssignList.exe
+D:\844866\C#\HandsOn\AssignList\obj\Debug\AssignList.pdb

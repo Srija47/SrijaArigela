@@ -1,0 +1,6 @@
+[submodule "TaskManger"]
+	path = TaskManger
+	url = https://github.com/Srija47/Angular.git
+[submodule "AngularForms"]
+	path = AngularForms
+	url = https://github.com/Srija47/Angular.git

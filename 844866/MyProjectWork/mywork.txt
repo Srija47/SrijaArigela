@@ -1,0 +1,21 @@
+﻿        My associate id:
+	844866
+	Other team members:
+	844993,845163,844866,845093
+	Team lead:
+	845163
+	My Role in team:
+	1. To develop placeorder page and validation using javascript.
+	My development files:
+	1. index.html
+	2. style.css
+	3. bootstrap.css.min
+	I was strong in:
+	1. HTML
+	2. Css
+        3. Bootstrap
+	I was weak in:
+	1.Local storage
+	Feedback:
+	1. Good and useful.
+

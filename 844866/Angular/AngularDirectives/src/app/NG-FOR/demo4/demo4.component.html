@@ -1,0 +1,51 @@
+<h1>Project Details</h1>
+<div id="project">
+    <table border="1"> 
+        <tr>
+            <td>Project ID</td>
+            <td><input type="text" [(ngModel)]="pid"></td>
+        </tr>
+        <tr>
+            <td>Project Name</td>
+            <td><input type="text" [(ngModel)]="pname"></td>
+        </tr>
+        <tr>
+            <td>Domain</td>
+            <td><select [(ngModel)]="std">
+                <option>Dotnet</option>
+                <option>Java</option>
+                <option>Testing</option>
+                <option>UI</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Start Date</td>
+            <td><input type="text" [(ngModel)]="startdate"></td>
+        </tr>
+        <tr>
+            <td>End Date</td>
+            <td><input type="text" [(ngModel)]="enddate"></td>
+        </tr>
+        <tr>
+            <td>
+                <button (click)="Add()">Add</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<table border="1">
+    <tr>
+        <th>PID</th>
+        <th>Pame</th>
+        <th>Domain</th>
+        <th>Sd</th>
+        <th>Ed</th>
+    </tr>
+    <tr *ngFor="let item of list">
+          <td>{{item.pid}}</td>
+          <td>{{item.pname}}</td>
+          <td>{{item.domain}}</td>
+          <td>{{item.startdate}}</td>
+          <td>{{item.enddate}}</td>
+    </tr>
+</table>

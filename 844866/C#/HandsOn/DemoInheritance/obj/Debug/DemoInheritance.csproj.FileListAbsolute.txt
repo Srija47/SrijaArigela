@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DemoInheritance\bin\Debug\DemoInheritance.exe.config
+C:\Users\dell\source\repos\DemoInheritance\bin\Debug\DemoInheritance.exe
+C:\Users\dell\source\repos\DemoInheritance\bin\Debug\DemoInheritance.pdb
+C:\Users\dell\source\repos\DemoInheritance\obj\Debug\DemoInheritance.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DemoInheritance\obj\Debug\DemoInheritance.exe
+C:\Users\dell\source\repos\DemoInheritance\obj\Debug\DemoInheritance.pdb

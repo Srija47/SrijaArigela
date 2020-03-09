@@ -1,0 +1,17 @@
+<p>login works!</p>
+<div class="container">
+    <div class="form-group">
+        <label for="Uname">UserName</label>
+        <input type="text" [(ngModel)]="uname" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="Pwd">Password</label>
+        <input type="password" [(ngModel)]="pwd" class="form-control">
+    </div>
+    <div class="form-group">
+        <button (click)="Validate()">Login</button> 
+    </div>
+    <div class="form-group">
+     <label class="text-warn">{{errmsg}}</label>
+    </div>
+</div>

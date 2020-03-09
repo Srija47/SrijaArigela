@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\dell\source\repos\Calculator\bin\Debug\Calculator.exe
+C:\Users\dell\source\repos\Calculator\bin\Debug\Calculator.pdb
+C:\Users\dell\source\repos\Calculator\obj\Debug\Calculator.exe
+C:\Users\dell\source\repos\Calculator\obj\Debug\Calculator.pdb

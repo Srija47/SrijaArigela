@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\HighestAndSmallestNumber\bin\Debug\HighestAndSmallestNumber.exe.config
+C:\Users\dell\source\repos\HighestAndSmallestNumber\bin\Debug\HighestAndSmallestNumber.exe
+C:\Users\dell\source\repos\HighestAndSmallestNumber\bin\Debug\HighestAndSmallestNumber.pdb
+C:\Users\dell\source\repos\HighestAndSmallestNumber\obj\Debug\HighestAndSmallestNumber.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\HighestAndSmallestNumber\obj\Debug\HighestAndSmallestNumber.exe
+C:\Users\dell\source\repos\HighestAndSmallestNumber\obj\Debug\HighestAndSmallestNumber.pdb

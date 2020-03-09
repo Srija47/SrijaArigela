@@ -1,0 +1,6 @@
+D:\844866\C#\HandsOn\Object\bin\Debug\Object.exe.config
+D:\844866\C#\HandsOn\Object\bin\Debug\Object.exe
+D:\844866\C#\HandsOn\Object\bin\Debug\Object.pdb
+D:\844866\C#\HandsOn\Object\obj\Debug\Object.csprojAssemblyReference.cache
+D:\844866\C#\HandsOn\Object\obj\Debug\Object.exe
+D:\844866\C#\HandsOn\Object\obj\Debug\Object.pdb

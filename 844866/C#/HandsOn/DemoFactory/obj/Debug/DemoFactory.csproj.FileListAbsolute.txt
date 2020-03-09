@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DemoFactory\bin\Debug\DemoFactory.exe.config
+C:\Users\dell\source\repos\DemoFactory\bin\Debug\DemoFactory.exe
+C:\Users\dell\source\repos\DemoFactory\bin\Debug\DemoFactory.pdb
+C:\Users\dell\source\repos\DemoFactory\obj\Debug\DemoFactory.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DemoFactory\obj\Debug\DemoFactory.exe
+C:\Users\dell\source\repos\DemoFactory\obj\Debug\DemoFactory.pdb

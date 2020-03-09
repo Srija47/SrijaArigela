@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        p{
+            background-color:aquamarine;
+        }
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $(".button1").click(function () {
+                $("p").fadeOut();
+            });
+        });
+
+         $(document).ready(function () {
+            $(".button2").click(function () {
+                $("p").fadeIn();
+            });
+         });
+        
+        $(document).ready(function () {
+            $(".button").click(function () {
+                $("p").fadeToggle();
+            });
+        });
+
+        $(document).ready(function () {
+            $(".button").click(function () {
+                $("img").animate({
+                    left: 300
+                });
+            });
+        });
+
+    </script>
+    <style type="text/css">
+        img{
+            position:relative;/*Required to move element*/
+        }
+    </style>
+</head>
+<body>
+    Animation script
+    <button type="button" class="button">Start Animation</button>
+    <p>
+        <img src="jerry.png" alt="Ball" />
+    </p>
+    Fadein and fade out script
+    <button type="button" class="button1">fadeout</button>
+    <button type="button" class="button2">fadein</button>
+    <p>This is a paragraph1</p>
+    <p>This is a paragraph2</p>
+
+    Toggle script
+    <button type="button" class="button">Toggle</button>
+    <p>This is a paragraph1</p>
+    <p>This is a paragraph2</p>
+    <p>This is a paragraph3</p>
+    <p>This is a paragraph4</p>
+</body>
+</html>

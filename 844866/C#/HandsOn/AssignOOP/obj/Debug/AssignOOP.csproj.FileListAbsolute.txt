@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\AssignOOP\bin\Debug\AssignOOP.exe.config
+C:\Users\dell\source\repos\AssignOOP\bin\Debug\AssignOOP.exe
+C:\Users\dell\source\repos\AssignOOP\bin\Debug\AssignOOP.pdb
+C:\Users\dell\source\repos\AssignOOP\obj\Debug\AssignOOP.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\AssignOOP\obj\Debug\AssignOOP.exe
+C:\Users\dell\source\repos\AssignOOP\obj\Debug\AssignOOP.pdb

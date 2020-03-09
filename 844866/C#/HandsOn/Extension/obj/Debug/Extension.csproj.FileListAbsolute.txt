@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\Extension\obj\Debug\Extension.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\Extension\bin\Debug\Extension.exe.config
+C:\Users\dell\source\repos\Extension\bin\Debug\Extension.exe
+C:\Users\dell\source\repos\Extension\bin\Debug\Extension.pdb
+C:\Users\dell\source\repos\Extension\obj\Debug\Extension.exe
+C:\Users\dell\source\repos\Extension\obj\Debug\Extension.pdb

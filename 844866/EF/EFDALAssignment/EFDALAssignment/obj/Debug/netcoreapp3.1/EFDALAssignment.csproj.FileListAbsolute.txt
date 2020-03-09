@@ -1,0 +1,10 @@
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\bin\Debug\netcoreapp3.1\EFDALAssignment.deps.json
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\bin\Debug\netcoreapp3.1\EFDALAssignment.dll
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\obj\Debug\netcoreapp3.1\EFDALAssignment.AssemblyInfoInputs.cache
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\obj\Debug\netcoreapp3.1\EFDALAssignment.AssemblyInfo.cs
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\bin\Debug\netcoreapp3.1\EFDALAssignment.runtimeconfig.json
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\bin\Debug\netcoreapp3.1\EFDALAssignment.runtimeconfig.dev.json
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\bin\Debug\netcoreapp3.1\EFDALAssignment.pdb
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\obj\Debug\netcoreapp3.1\EFDALAssignment.dll
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\obj\Debug\netcoreapp3.1\EFDALAssignment.pdb
+D:\844866\844866\EF\EFDALAssignment\EFDALAssignment\obj\Debug\netcoreapp3.1\EFDALAssignment.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\844866\844866\ADO\AssignmentOnDB\AssignmentOnDB\bin\Debug\AssignmentOnDB.exe.config
+D:\844866\844866\ADO\AssignmentOnDB\AssignmentOnDB\bin\Debug\AssignmentOnDB.exe
+D:\844866\844866\ADO\AssignmentOnDB\AssignmentOnDB\bin\Debug\AssignmentOnDB.pdb
+D:\844866\844866\ADO\AssignmentOnDB\AssignmentOnDB\obj\Debug\AssignmentOnDB.csprojAssemblyReference.cache
+D:\844866\844866\ADO\AssignmentOnDB\AssignmentOnDB\obj\Debug\AssignmentOnDB.exe
+D:\844866\844866\ADO\AssignmentOnDB\AssignmentOnDB\obj\Debug\AssignmentOnDB.pdb

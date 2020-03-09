@@ -1,0 +1,16 @@
+<div class="container">
+<table class="table" border="0">
+    <tr class="Default">
+        <th class="thead">Name</th>
+        <th class="thead">Priority</th>
+        <th class="thead">StartDate</th>
+        <th class="thead">EndDate</th>
+    </tr>
+    <tr class="Default" *ngFor="let item of list">
+          <td>{{item.name}}</td>
+          <td>{{item.priority}}</td>
+          <td>{{item.startdate}}</td>
+          <td>{{item.enddate}}</td>
+    </tr>
+</table>
+</div>

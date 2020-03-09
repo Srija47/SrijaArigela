@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DemoOops\bin\Debug\DemoOops.exe.config
+C:\Users\dell\source\repos\DemoOops\bin\Debug\DemoOops.exe
+C:\Users\dell\source\repos\DemoOops\bin\Debug\DemoOops.pdb
+C:\Users\dell\source\repos\DemoOops\obj\Debug\DemoOops.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DemoOops\obj\Debug\DemoOops.exe
+C:\Users\dell\source\repos\DemoOops\obj\Debug\DemoOops.pdb

@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\JaggAssign\bin\Debug\JaggAssign.exe.config
+C:\Users\dell\source\repos\JaggAssign\bin\Debug\JaggAssign.exe
+C:\Users\dell\source\repos\JaggAssign\bin\Debug\JaggAssign.pdb
+C:\Users\dell\source\repos\JaggAssign\obj\Debug\JaggAssign.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\JaggAssign\obj\Debug\JaggAssign.exe
+C:\Users\dell\source\repos\JaggAssign\obj\Debug\JaggAssign.pdb

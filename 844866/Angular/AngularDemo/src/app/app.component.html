@@ -1,0 +1,16 @@
+<h1>Angular Demo</h1>
+<h3>Welcome</h3>
+<h3>{{'Title is'+title}}</h3>
+<h3>{{10+num}}</h3>
+<h3>{{title?title:'No title'}}</h3>
+<!--String datatype use interpolation or property binding-->
+<img src="{{imagepath}}"> <!--pure interpolation-->
+<img [src]="imagepath"> <!--property binding-->
+<h3>{{getname()}}</h3>
+<!--Non string datatype use property binding-->
+<!--<button [disabled]="isdisabled">ClickMe</button>-->
+  <button disabled= "{{isdisabled}}">ClickMe </button>
+  <!--This is canonical form of property binding-->
+  <button [class]="mystyle" bind-disabled="isdisabled">BindMe</button>
+<my-employee></my-employee>
+<button [class.italicclass]=applyStyle >Check </button>

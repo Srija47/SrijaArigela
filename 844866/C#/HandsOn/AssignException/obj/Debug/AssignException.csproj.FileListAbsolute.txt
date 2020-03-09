@@ -1,0 +1,6 @@
+D:\844866\C#\HandsOn\AssignException\obj\Debug\AssignException.csprojAssemblyReference.cache
+D:\844866\C#\HandsOn\AssignException\bin\Debug\AssignException.exe.config
+D:\844866\C#\HandsOn\AssignException\bin\Debug\AssignException.exe
+D:\844866\C#\HandsOn\AssignException\bin\Debug\AssignException.pdb
+D:\844866\C#\HandsOn\AssignException\obj\Debug\AssignException.exe
+D:\844866\C#\HandsOn\AssignException\obj\Debug\AssignException.pdb

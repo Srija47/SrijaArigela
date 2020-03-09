@@ -1,0 +1,47 @@
+Scaffold-DbContext "Data Source=DESKTOP-A63MUHA\SQLEXPRESS;Initial Catalog=EMartDB;User ID=sa;Password=pass@word1" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+
+
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { User } from 'src/app/Models/user';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+
+@Component({
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
+})
+export class LoginComponent implements OnInit {
+  user:User;
+  submitted=false;
+  userForm:FormGroup;
+    constructor(private frombuilder:FormBuilder) { }
+  
+    ngOnInit() {
+      this.userForm=this.frombuilder.group({
+        uname:['',[Validators.required,Validators.pattern("^[A-Za-z]{0,}$")]],
+        pwd:['',[Validators.required,Validators.pattern("^[A-Za-z]{7,}[!@#$%^&*]")]]
+      });
+    }
+    onSubmitLogin(){
+      this.submitted=true;
+      if(this.userForm.invalid){
+       return;
+      }
+        else{
+          this.user=new User();
+        this.user.uname=this.userForm.value["uname"];
+        this.user.pwd=this.userForm.value["pwd"];
+        }
+      }
+      get f(){return this.userForm.controls;}
+      onReset()
+      {
+        this.submitted=false;
+        this.userForm.reset();
+      }
+    }
+  }
+}

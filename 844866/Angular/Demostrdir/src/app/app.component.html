@@ -1,0 +1,41 @@
+<h1>Customer Details</h1>
+<ul>
+  <li *ngFor="let cmr of Customer">
+  {{cmr.name}} {{cmr.age}} {{cmr.country}}
+  </li>
+</ul>
+
+<ul>
+  <li *ngFor="let cmr of Customer;let i=index">
+    {{i+1}}-{{cmr.name}} {{cmr.age}} {{cmr.country}}
+  </li>
+</ul>
+<!---Grouping or nesting iteration-->
+
+<ul>
+  <li *ngFor="let group of StudentbyCountry">
+    {{group.country}}
+    <ul>
+      <li *ngFor="let stdnt of group.student">
+        {{stdnt.name}} {{stdnt.age}}
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<!--ng if-->
+<h1>Customer Details</h1>
+<ul *ngFor="let cmr of Customer">
+  <li *ngIf="cmr.age < 25" class="text-danger">
+  {{cmr.name}} {{cmr.country}}
+  </li>
+</ul>
+
+<!--Switch case-->
+<h1>Customer Details</h1>
+<ul *ngFor="let cmr of Customer" [ngSwitch]="country">
+  <li *ngSwitchCase="'India'" class="text-primary">{{cmr.name}} {{cmr.age}}</li>
+  <li *ngSwitchCase="'US'" class="text-danger">{{cmr.name}} {{cmr.age}}</li>
+  <li *ngSwitchDefault class="text-info">{{cmr.name}} {{cmr.age}}</li>
+</ul>
+

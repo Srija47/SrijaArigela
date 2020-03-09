@@ -1,0 +1,20 @@
+<table align="center">
+    <tr>
+      <td>
+        <a [routerLink]="'add-category'">Add-Category</a>
+      </td>
+      <td>
+        <a [routerLink]="'add-remove-buyer'">Add-Remove Buyer</a>
+      </td>
+      <td>
+        <a [routerLink]="'add-remove-seller'">Add-Remove-Seller</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <router-outlet></router-outlet>
+      </td>
+    </tr>
+  </table>
+  <button (click)="logout()" class="btn btn-primary">LogOut</button>
+  

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.min.js"></script>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="align-content-start alert-primary">Welcome to CTS </h1>
+                <a class="btn-info" href="#">CTS</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav list-group-horizontal">
+                    <li><a href="/Employee/Index">Home</a></li>
+                    <li>@Html.ActionLink("Employee1_Details", "Search", "Employee", new { id = 1 })</li>
+                    <li>@Html.ActionLink("Employee2_Details", "Search", "Employee", new { id = 2 })</li>
+                    @*<li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>*/*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h1>Welcome to CTS</h1>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        @*realtive reference*@
+        @*<partial action="_myPartial" name="_myPartial"/>*@
+        absolute reference
+        @*@Html.RenderPartialAsync("~Views/Employee/_myPartial.cshtml")*@
+        <partial name="~/Views/Employee/_myPartial.cshtml" />
+    </div>
+</body>
+</html>

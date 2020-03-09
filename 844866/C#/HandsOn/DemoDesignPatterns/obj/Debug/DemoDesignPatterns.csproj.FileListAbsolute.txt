@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DemoDesignPatterns\bin\Debug\DemoDesignPatterns.exe.config
+C:\Users\dell\source\repos\DemoDesignPatterns\bin\Debug\DemoDesignPatterns.exe
+C:\Users\dell\source\repos\DemoDesignPatterns\bin\Debug\DemoDesignPatterns.pdb
+C:\Users\dell\source\repos\DemoDesignPatterns\obj\Debug\DemoDesignPatterns.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DemoDesignPatterns\obj\Debug\DemoDesignPatterns.exe
+C:\Users\dell\source\repos\DemoDesignPatterns\obj\Debug\DemoDesignPatterns.pdb

@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DempParam\obj\Debug\DempParam.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DempParam\bin\Debug\DempParam.exe.config
+C:\Users\dell\source\repos\DempParam\bin\Debug\DempParam.exe
+C:\Users\dell\source\repos\DempParam\bin\Debug\DempParam.pdb
+C:\Users\dell\source\repos\DempParam\obj\Debug\DempParam.exe
+C:\Users\dell\source\repos\DempParam\obj\Debug\DempParam.pdb

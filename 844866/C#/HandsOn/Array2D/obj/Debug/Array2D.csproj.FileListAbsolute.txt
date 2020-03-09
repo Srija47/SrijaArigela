@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\Array2D\bin\Debug\Array2D.exe.config
+C:\Users\dell\source\repos\Array2D\bin\Debug\Array2D.exe
+C:\Users\dell\source\repos\Array2D\bin\Debug\Array2D.pdb
+C:\Users\dell\source\repos\Array2D\obj\Debug\Array2D.exe
+C:\Users\dell\source\repos\Array2D\obj\Debug\Array2D.pdb
+C:\Users\dell\source\repos\Array2D\obj\Debug\Array2D.csprojAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\dell\source\repos\DateTime\bin\Debug\DateTime.exe.config
+C:\Users\dell\source\repos\DateTime\bin\Debug\DateTime.exe
+C:\Users\dell\source\repos\DateTime\bin\Debug\DateTime.pdb
+C:\Users\dell\source\repos\DateTime\obj\Debug\DateTime.exe
+C:\Users\dell\source\repos\DateTime\obj\Debug\DateTime.pdb

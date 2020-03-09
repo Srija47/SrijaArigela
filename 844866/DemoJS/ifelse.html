@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h5>Checking Leap Year</h5>
+    Enter Year<input id="in1" type="text" />
+    <input type="button" value="check" onclick="loop()" />
+    <script language="javascript" type="text/javascript">
+        function loop() {
+            var year = 2004;
+            if (year % 4 == 0) document.write("Millenium Year");
+            else if (year % 400 == 0 && year % 100 !== 0) document.write("Leap Year");
+            else document.write("Not a leap year");
+    }
+    </script>
+   <!--<h3>Week Number</h3>
+    <script language="javascript" type="text/javascript">
+        {
+            var num = prompt("Enter Week number");
+            document.write(num);
+            switch (num) {
+                case "1": document.write("Sunday"); break;
+                case "2": document.write("Monday"); break;
+                case "3": document.write("Tuesday"); break;
+                case "4": document.write("Wednesday"); break;
+                case "5": document.write("Thursday"); break;
+                case "6": document.write("Friday"); break;
+                case "7": document.write("Saturday"); break;
+                default: document.write("Not a valid week number"); break;
+            }
+        }
+    </script>-->
+</body >
+</html >

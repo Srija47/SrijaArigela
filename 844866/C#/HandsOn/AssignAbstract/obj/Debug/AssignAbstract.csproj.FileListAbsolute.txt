@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\AssignAbstract\obj\Debug\AssignAbstract.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\AssignAbstract\bin\Debug\AssignAbstract.exe.config
+C:\Users\dell\source\repos\AssignAbstract\bin\Debug\AssignAbstract.exe
+C:\Users\dell\source\repos\AssignAbstract\bin\Debug\AssignAbstract.pdb
+C:\Users\dell\source\repos\AssignAbstract\obj\Debug\AssignAbstract.exe
+C:\Users\dell\source\repos\AssignAbstract\obj\Debug\AssignAbstract.pdb

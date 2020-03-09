@@ -1,0 +1,27 @@
+<div class="container">
+ <h4 style="text-align:center;">Welcome Buyer!</h4>
+</div>
+<br>
+<div class="container">
+<table align="center">
+    <tr>
+      <td>
+        <a [routerLink]="'buy-item'">Buy-Item</a>
+      </td>
+      <td>
+        <a [routerLink]="'view-cart'">View Cart</a>
+      </td>
+      <td>
+        <a [routerLink]="'Payment'">Payment</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <router-outlet></router-outlet>
+      </td>
+    </tr>
+  </table>
+  <button (click)="logout()" class="btn btn-primary">LogOut</button>
+  </div>
+
+  

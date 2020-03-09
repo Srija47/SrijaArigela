@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DemoThreading\bin\Debug\DemoThreading.exe.config
+C:\Users\dell\source\repos\DemoThreading\bin\Debug\DemoThreading.exe
+C:\Users\dell\source\repos\DemoThreading\bin\Debug\DemoThreading.pdb
+C:\Users\dell\source\repos\DemoThreading\obj\Debug\DemoThreading.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DemoThreading\obj\Debug\DemoThreading.exe
+C:\Users\dell\source\repos\DemoThreading\obj\Debug\DemoThreading.pdb

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        #pname{
+            background-color:blueviolet;
+        }
+        h1{
+            color:brown;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-display:swap;
+            font-size:small;
+            font-weight:bold;
+        }
+        /*class selector*/
+        .p2{
+            background-color:lightblue;
+            color:#000000;
+            font-size:48px;
+            font-weight:bold;
+        }
+        /*attribute selector*/
+        input[type="text"]
+        {
+            background-color:aqua;
+            color:red;
+        }
+        /*universal style*/
+        *{
+            font-style:italic;
+        }
+        /*Group style*/
+       h3,h1{
+           color:crimson;
+       }
+       /*inner tag selector*/
+       /*div p{
+           font-size:20px;
+           color:blue;
+           font-weight:bold;
+       }*/
+       /*child tag selector*/
+        div > p {
+            font-size: 20px;
+            color: blue;
+            font-weight: bold;
+        }
+        div + p {
+            font-size: 20px;
+            color: darkgray;
+            font-weight: bold;
+        }
+        div + p {
+            font-size: 20px;
+            color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color:yellow;font-size:24;background-color:aquamarine">Welcome to Cascaded Style Sheets</h3>
+    <P ID="pname">Welcome to Book Your Hotel Website.</P>
+    <P class="p2">Hotel booking facility at your doorstep</P>
+    <P>Welcome to Book Your Hotel Website.</P>
+    <h2 class="pname">Welcome to Chennai</h2>
+    <div><span><p>welcome to cts</p></span></div>
+    <div><p>welcome to IIHT</p><strong>Hi</strong></div>
+    <h3>USERName</h3><input tpe="text" />
+    <h3>Password</h3><input tpe="password" />
+    <h1>Welcome to css</h1>
+    <div>Selector</div>
+    <p>immediate</p>
+</body>
+</html>

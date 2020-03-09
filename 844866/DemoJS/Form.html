@@ -1,0 +1,68 @@
+﻿
+<html>
+<head>
+    <TITLE>REGISTRATION DETAILS</TITLE>
+    <STYLE>
+        H1, h3 {
+            Color: black;
+            Font-size: 40px;
+            text-align: center;
+        }
+
+        #button {
+            margin-left: 740px;
+        }
+    </STYLE>
+    
+        <script type="text/javascript" src="script3.js"></script>
+
+    
+</head>
+<BODY>
+    <div>
+        <form id="f1" action="valid.html" onsubmit="return show()" method="get">
+            <H1>USER REGISTRATION DETAILS   </H1>
+            <H3>Please fill the following details and get registered !!</H3><BR /><BR />
+            <TABLE align="center" border="1" bordercolor="white" cellpadding="10px"
+                   bgcolor="beige">
+                <TR>
+                    <TD>  First  name:  </TD>
+                    <TD>
+                        <INPUT type="text" required name="name1" id="txtbox1" onblur="changeColor(this)" />
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>  Last  name:  </TD>
+                    <TD>
+                        <INPUT type="text" name="name2" id="txtbox2" onblur="changeColor(this)" />
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>  Age:  </TD>
+                    <TD>
+                        <INPUT type="number" name="age_box" id="age" onblur="changeColor(this)" />
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>  Address:</TD>
+                    <TD><TEXTAREA rows="5" name="address_box" id="address" onblur="changeColor(this)"></TEXTAREA></TD>
+                </TR>
+                <TR>
+                    <TD> Gender: </TD>
+                    <TD>
+                        <SELECT name="Gender" id="gender">
+                            <OPTION value="Male">Male</OPTION>
+                            <OPTION value="Female">Female</OPTION>
+                        </SELECT>
+                    </TD>
+                </TR>
+            </TABLE>
+            
+                <BR /><INPUT id="submit" type="submit" value="Register Me" />
+                <INPUT id="reset" type="reset" value="Reset" />
+           
+        </form>
+    </div>
+</BODY>
+</html>
+

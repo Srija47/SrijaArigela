@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\GraduateStudent\bin\Debug\GraduateStudent.exe.config
+C:\Users\dell\source\repos\GraduateStudent\bin\Debug\GraduateStudent.exe
+C:\Users\dell\source\repos\GraduateStudent\bin\Debug\GraduateStudent.pdb
+C:\Users\dell\source\repos\GraduateStudent\obj\Debug\GraduateStudent.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\GraduateStudent\obj\Debug\GraduateStudent.exe
+C:\Users\dell\source\repos\GraduateStudent\obj\Debug\GraduateStudent.pdb

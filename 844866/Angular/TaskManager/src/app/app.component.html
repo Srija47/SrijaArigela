@@ -1,0 +1,18 @@
+<div class="container">
+<h1>Task Manager</h1>
+<table class="table table-borderless">
+  <tr class="Default" scope="col">
+    <td>
+      <a [routerLink]="'add-task'">Add Task</a>
+    </td>
+    <td>
+      <a [routerLink]="'view-task'">View Task</a>
+    </td>
+  </tr>
+  <tr class="Default">
+    <td colspan="3">
+      <router-outlet></router-outlet>
+    </td>
+  </tr>
+</table>
+</div>

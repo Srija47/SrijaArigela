@@ -1,0 +1,6 @@
+D:\844866\C#\HandsOn\DemoIndexer\bin\Debug\DemoIndexer.exe.config
+D:\844866\C#\HandsOn\DemoIndexer\bin\Debug\DemoIndexer.exe
+D:\844866\C#\HandsOn\DemoIndexer\bin\Debug\DemoIndexer.pdb
+D:\844866\C#\HandsOn\DemoIndexer\obj\Debug\DemoIndexer.csprojAssemblyReference.cache
+D:\844866\C#\HandsOn\DemoIndexer\obj\Debug\DemoIndexer.exe
+D:\844866\C#\HandsOn\DemoIndexer\obj\Debug\DemoIndexer.pdb

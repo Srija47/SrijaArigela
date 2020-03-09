@@ -1,0 +1,5 @@
+D:\844866\C#\HandsOn\DemoPartial\bin\Debug\DemoPartial.exe.config
+D:\844866\C#\HandsOn\DemoPartial\bin\Debug\DemoPartial.exe
+D:\844866\C#\HandsOn\DemoPartial\bin\Debug\DemoPartial.pdb
+D:\844866\C#\HandsOn\DemoPartial\obj\Debug\DemoPartial.exe
+D:\844866\C#\HandsOn\DemoPartial\obj\Debug\DemoPartial.pdb

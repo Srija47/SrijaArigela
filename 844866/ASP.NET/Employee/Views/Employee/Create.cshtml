@@ -1,0 +1,67 @@
+﻿@model Employee1
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+@*@using (Html.BeginForm())
+{
+    Name @Html.TextBox("TextBox", "Enter Name");<br />
+        Address @Html.TextArea("TextArea", "Address");<br />
+        Password @Html.Password("Password");<br />
+        Program @Html.ListBox("11",new MultiSelectList(new[] { "ASP", "ASP.NET" }));
+    @Html.Label("Name")
+        @Html.TextBoxFor(m=>m.Name, "Enter Name");<br />
+        @Html.LabelFor(m=>m.Email)
+        <br />
+        Address @Html.TextAreaFor(m=>m.Dept, "Address");
+        <br />
+        Password @Html.PasswordFor(m=>m.Id);
+        <br />
+
+    <center>
+
+            @Html.Display("Id")
+            <br />
+            @Html.DisplayFor(m => m.Id)
+            <br />
+            @Html.Display("Name")
+            <br />
+            @Html.DisplayFor(m => m.Name)
+            <br />
+            @Html.Display("Email")
+            <br />
+            @Html.EditorFor(m => m.Email)
+            <br />
+            @Html.Display("Dept")
+            <br />
+            @Html.DisplayFor(m => m.Dept)
+            <br />
+            <input class="btn btn-primary" type="submit" value="submit" action="Employee1/Create/1" />
+        </center> }*@
+<form asp-controller="Employee" asp-action="Create" method="post">
+    <div class="form-row">
+        <label asp-for="Name" class="col-form-label">Name</label>
+        <input asp-for="Name" class="col-lg-6" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-row">
+        <label asp-for="Email" class="col-form-label">Email</label>
+        <input asp-for="Email" class="col-lg-6" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-row">
+        <label asp-for="Dept" class="col-form-label">Dept</label>
+        <select asp-for="Dept" class="col-lg-6" asp-items="Html.GetEnumSelectList<Dept>()"></select>
+    </div>
+    <div asp-validation-summary="All" class="text-danger">
+    </div>
+
+    <div class="form-row">
+        @*<input type="submit" value="Create Employee" />*@
+        <button type="submit" value="Create">Create</button>
+    </div>
+    <div>
+        <partial name="~/Views/Employee\_myPartial.cshtml" />
+    </div>
+</form>

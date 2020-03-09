@@ -1,0 +1,10 @@
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.deps.json
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.dll
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.csprojAssemblyReference.cache
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.AssemblyInfoInputs.cache
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.AssemblyInfo.cs
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.runtimeconfig.json
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.runtimeconfig.dev.json
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\bin\Debug\netcoreapp3.1\EFDataAccessLayer.pdb
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.dll
+D:\844866\844866\EF\EFDataAccessLayer\EFDataAccessLayer\obj\Debug\netcoreapp3.1\EFDataAccessLayer.pdb

@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <script type="text/javascript" >
+    //Form validation code will be here
+    function validate() {
+        if (document.myForm.Name.value != "") {
+            alert("Name Cannot be Empty");
+            var pat = /[0-9]{2,}/;
+            var pat1 = /(?=.[!@#\$%\^&])/;
+            if (pat.test(document.myForm.Name.value) == true) {
+                alert("Name Cannot Have Numbers");
+            }
+            else if (pat1.test(document.myForm.Name.value) == true) {
+                alert("Name Cannot Have Special Characters");
+            }
+            else if ((document.myForm.Name.value > 2 && document.myForm.Name.value < 30) == true) {
+                alert("Name Length should be between 2 to 30 characters");
+            }
+            else {
+                document.myForm.Name.focus();
+                return false;
+            }
+        }
+            if (document.myForm.Gender.value == "") {
+                alert("Please provide your Email");
+                document.myForm.Gender.focus();
+                return false;
+            }
+        if (document.myForm.HomeTown.value == "-1") {
+            alert("Please provide your Country");
+            document.myForm.HomeTown.focus();
+            return false;
+        }
+        if (document.myForm.Address.value == "") {
+                alert("Please provide your Address");
+                document.myForm.Address.focus();
+                return false;
+        }
+         if (document.myForm.Password.value == "") {
+                alert("Password cannot be Empty");
+                document.myForm.Password.focus();
+                return false;
+         }
+
+            return (true);
+    }
+    </script>
+</head>
+<body>
+    <h1> Personal Details</h1>
+    <form name="myForm" onsubmit="return (validate());">
+        <table cellpadding="1" cellspacing="1" border="0" rowspan="2">
+            <tr>
+                <td align="left">Name</td>
+                <td><input type="text" name="Name" /></td>
+            </tr>
+            <tr>
+                <td align="left">Gender</td>
+                
+                <td>
+                    Male<input type="radio" name="Male" />
+
+                    Female<input type="radio" name="FeMale" />
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Home Town</td>
+                <td>
+                    <select name="HomeTown">
+                        <option value="-1" selected>[choose yours]</option>
+                        <option value="1" selected>NewDelhi</option>
+                        <option value="2" selected>AndhraPradesh</option>
+                        <option value="3" selected>TamilNadu</option>
+                        <option value="4" selected>Maharashtra</option>
+                        <option value="5" selected>Kerala</option>
+                        <option value="6" selected>Odissa</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Address</td>
+                <td>
+                    <textarea type="text" name="address" rows="3" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Skills</td>
+                <td>
+                    Java<input type="checkbox" name="Java" />
+                    HTML <input type="checkbox" name="HTML" />
+                    Oracle<input type="checkbox" name="Oracle" />
+                </td>
+            </tr>
+            <tr>
+                <td align="left">Password</td>
+                <td><input type="password" name="Password" id="myInput"/></td>
+            </tr>
+            <tr>
+                <td align="left"></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

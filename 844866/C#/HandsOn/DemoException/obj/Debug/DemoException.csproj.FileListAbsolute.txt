@@ -1,0 +1,6 @@
+C:\Users\dell\source\repos\DemoException\bin\Debug\DemoException.exe.config
+C:\Users\dell\source\repos\DemoException\bin\Debug\DemoException.exe
+C:\Users\dell\source\repos\DemoException\bin\Debug\DemoException.pdb
+C:\Users\dell\source\repos\DemoException\obj\Debug\DemoException.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\DemoException\obj\Debug\DemoException.exe
+C:\Users\dell\source\repos\DemoException\obj\Debug\DemoException.pdb

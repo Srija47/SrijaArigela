@@ -1,0 +1,16 @@
+<h1>Calculator</h1>
+<div>
+    Number1:<input type="text" #t1>
+    <br><br>
+    Number2:<input type="text" #t2><br>
+</div>
+<br>
+    <div>
+            <button (click)='add(t1.value,t2.value)'>Add </button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button (click)='subtract(t1.value,t2.value)'>Subtract </button>
+    </div>
+        <br>
+        <div>
+            Addition = {{res1}}
+            Subtraction ={{res2}}
+        </div>

@@ -1,0 +1,21 @@
+<div class="container">
+ <h4 style="text-align:center;">Welcome Seller!</h4>
+</div>
+<div class="container">
+<table align="center">
+    <tr>
+      <td>
+        <a [routerLink]="'add-item'">Add-Item</a>
+      </td>
+      <td>
+        <a [routerLink]="'view-item'">View Item</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <router-outlet></router-outlet>
+      </td>
+    </tr>
+  </table>
+  <button (click)="logout()" class="btn btn -info btn-primary">LogOut</button>
+</div>
